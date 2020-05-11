@@ -44,4 +44,3 @@ describe "#name" do
    end
  end
 end
-  
