@@ -14,6 +14,7 @@ describe "Dog" do
       expect(Dog.class_variable_get(:@@all)).to be_a(array)
     end
   end
+
   describe "#clear_all" do
     it "is a class method that empties the @@all array of all existing dogs" do
       dog.clear_all
