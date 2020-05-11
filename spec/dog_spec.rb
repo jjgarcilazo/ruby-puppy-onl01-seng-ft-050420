@@ -1,4 +1,4 @@
-spec/dog_spec.rbspec/dog_spec.rbdescribe "Dog" do 
+spec/dog_spec.rbspec/dog_spec.rbdescribe "Dog" do
   let!(:pluto) { Dog.new("Pluto") }
   let!(:fido) { Dog.new("Fido") }
   let!(:maddy) { Dog.new("Maddy") }
